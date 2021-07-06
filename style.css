@@ -15,7 +15,7 @@ h1{
     color: blueviolet;
 }
 
-section{
+.Flexible-container{
 
     display: flex;
 }
@@ -23,6 +23,7 @@ section{
 .half-width{
     width: 50%;
     padding-left: 5%;
+    
 }
 
 .half-width img{
@@ -50,4 +51,36 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.Expo-Item{
+    box-shadow: 10px 10px 25px darkslategray;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%S;
+    padding: 20px;
+}
+
+.Expo{
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+
+#web-expo{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,black);
+    border-image-slice: 1;
+}
+#full-stack{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,black);
+    border-image-slice: 1;
+
+}
+
+footer p{
+    text-align: center;
 }
